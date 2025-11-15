@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login / Register</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+  <div class="bg-white p-8 rounded shadow w-full max-w-md">
+    <h2 class="text-2xl font-bold mb-4 text-center">Register</h2>
+    <form id="registerForm" class="flex flex-col gap-3">
+      <input type="text" id="regName" placeholder="Name" class="p-2 border rounded"/>
+      <input type="email" id="regEmail" placeholder="Email" class="p-2 border rounded"/>
+      <input type="password" id="regPassword" placeholder="Password" class="p-2 border rounded"/>
+      <button type="submit" class="bg-green-500 text-white py-2 rounded">Register</button>
+       <p class="text-center text-sm text-gray-600 mt-4">
+      Sudah ada akaun?
+      <a href="/index.html" class="text-indigo-600 font-medium hover:underline">Login di sini</a>
+    </form>
+  </div>
+  <script src="log.js"></script>
+</body>
+</html>
