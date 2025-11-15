@@ -3,15 +3,15 @@ const USERS_KEY = 'premium_baju_users_v2';
 const LOGIN_KEY = 'premium_baju_login_v2';
 const PRODUCTS = [
   { id:'p1', title:'Arid Tee - Midnight Black', price:89.00,
-    images:['assets/images/images1.jpeg','assets/images/images2.jpeg'],
+    images:['images1.jpeg','images2.jpeg'],
     colors:['Black','White','Olive'], sizes:['XS','S','M','L','XL']
   },
   { id:'p2', title:'Breeze Polo - Stone', price:109.00,
-    images:['assets/images/images3.jpeg','assets/images/images4.jpeg'],
+    images:['images3.jpeg','images4.jpeg'],
     colors:['Stone','Navy'], sizes:['S','M','L','XL']
   },
   { id:'p3', title:'Linen Overshirt - Sand', price:149.00,
-    images:['assets/images/images5.jpeg','assets/images/images6.jpeg'],
+    images:['images5.jpeg','images6.jpeg'],
     colors:['Sand','Olive'], sizes:['M','L','XL']
   }
 ];
@@ -56,8 +56,8 @@ function initHome(){
   if(hero){
     const imgs=[
       'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?q=80&w=1600&auto=format&fit=crop',
-      'assets/images/logo1.jpg',
-      'assets/images/logo.png'
+      'logo1.jpg',
+      'logo.png'
     ];
     let i=0;
     setInterval(()=>{
